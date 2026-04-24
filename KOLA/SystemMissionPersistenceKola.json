@@ -12,6 +12,7 @@
     "2003": 1,
     "2004": 0,
     "2005": 1,
+    "2006": 0,
     "2007": 0,
     "2100": 1
   },
@@ -19,9 +20,9 @@
     "currentMissionId": "M01",
     "dbVersion": "1.4.13",
     "engineVersion": "1.4.14",
-    "nextMarkId": 950001,
+    "nextMarkId": 950003,
     "source": "HDEV_MissionSystem_Core",
-    "updatedAt": 97.061
+    "updatedAt": 87.071
   },
   "missionCatalog": {
     "M01": {
@@ -133,23 +134,71 @@
         },
         "OBJ_MULTI_WAREHOUSE": {
           "drawName": "Sacar aviones y armamento",
-          "enabled": false,
+          "enabled": true,
           "id": "OBJ_MULTI_WAREHOUSE",
           "monitor": {
             "baseName": "Andoya",
             "items": [
               {
                 "category": "aircraft",
-                "itemName": "UH-1H",
-                "label": "UH-1H - HUEY",
-                "removedAtLeast": 1
+                "itemName": "AH-64D_BLK_II",
+                "label": "AH-64D - APACHE",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "aircraft",
+                "itemName": "FA-18C_hornet",
+                "label": "FA-18C - HORNET",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "aircraft",
+                "itemName": "F-16C_50",
+                "label": "F-16C - VIPER",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.AAQ-28_LITENING",
+                "label": "POD LITENING LEFT",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.aaq-28LEFT litening",
+                "label": "POD LITENING LEFT",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.ah-64d_radar",
+                "label": "FCR CONTROL APACHE",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.alq-184long",
+                "label": "POD CONTRAMEDIDAS ELECTRONICAS",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.missiles.AIM_120C",
+                "label": "AIM 120 C",
+                "removedAtLeast": 40
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.missiles.AIM_9X",
+                "label": "AIM 9 X",
+                "removedAtLeast": 80
               }
             ],
             "kind": "warehouse",
             "mode": "all"
           },
           "name": "Sacar aviones y armamento",
-          "requiredForMission": false,
+          "requiredForMission": true,
           "reward": {
             "amount": 15000000,
             "coalition": 2,
@@ -305,23 +354,71 @@
         },
         "OBJ_MULTI_WAREHOUSE": {
           "drawName": "Sacar aviones y armamento",
-          "enabled": false,
+          "enabled": true,
           "id": "OBJ_MULTI_WAREHOUSE",
           "monitor": {
             "baseName": "Andoya",
             "items": [
               {
                 "category": "aircraft",
-                "itemName": "UH-1H",
-                "label": "UH-1H - HUEY",
-                "removedAtLeast": 1
+                "itemName": "AH-64D_BLK_II",
+                "label": "AH-64D - APACHE",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "aircraft",
+                "itemName": "FA-18C_hornet",
+                "label": "FA-18C - HORNET",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "aircraft",
+                "itemName": "F-16C_50",
+                "label": "F-16C - VIPER",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.AAQ-28_LITENING",
+                "label": "POD LITENING LEFT",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.aaq-28LEFT litening",
+                "label": "POD LITENING LEFT",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.ah-64d_radar",
+                "label": "FCR CONTROL APACHE",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.containers.alq-184long",
+                "label": "POD CONTRAMEDIDAS ELECTRONICAS",
+                "removedAtLeast": 2
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.missiles.AIM_120C",
+                "label": "AIM 120 C",
+                "removedAtLeast": 40
+              },
+              {
+                "category": "weapon",
+                "itemName": "weapons.missiles.AIM_9X",
+                "label": "AIM 9 X",
+                "removedAtLeast": 80
               }
             ],
             "kind": "warehouse",
             "mode": "all"
           },
           "name": "Sacar aviones y armamento",
-          "requiredForMission": false,
+          "requiredForMission": true,
           "reward": {
             "amount": 15000000,
             "coalition": 2,
@@ -407,7 +504,7 @@
             },
             "targetName": "Andoya"
           },
-          "lastEvalAt": 97.061,
+          "lastEvalAt": 87.071,
           "lastExists": 0,
           "lastPass": false,
           "lastSnapshot": {
@@ -458,10 +555,10 @@
             "targetName": "MT_01_EWR"
           },
           "firstSeenAt": 19.061,
-          "lastEvalAt": 97.061,
+          "lastEvalAt": 87.071,
           "lastExists": 1,
           "lastPass": false,
-          "lastSeenAt": 97.061,
+          "lastSeenAt": 87.071,
           "lastSnapshot": {
             "aliveUnits": 1,
             "exists": true,
@@ -509,10 +606,10 @@
             "targetName": "MT_01_SHIP"
           },
           "firstSeenAt": 19.061,
-          "lastEvalAt": 97.061,
+          "lastEvalAt": 87.071,
           "lastExists": 1,
           "lastPass": false,
-          "lastSeenAt": 97.061,
+          "lastSeenAt": 87.071,
           "lastSnapshot": {
             "aliveUnits": 1,
             "exists": true,
@@ -527,26 +624,74 @@
           "armed": false,
           "cleanupExecuted": false,
           "completed": false,
-          "debugStatus": "NO_EVALUADO",
+          "debugStatus": "PENDIENTE",
           "definitionSnapshot": {
             "drawName": "Sacar aviones y armamento",
-            "enabled": false,
+            "enabled": true,
             "id": "OBJ_MULTI_WAREHOUSE",
             "monitor": {
               "baseName": "Andoya",
               "items": [
                 {
                   "category": "aircraft",
-                  "itemName": "UH-1H",
-                  "label": "UH-1H - HUEY",
-                  "removedAtLeast": 1
+                  "itemName": "AH-64D_BLK_II",
+                  "label": "AH-64D - APACHE",
+                  "removedAtLeast": 2
+                },
+                {
+                  "category": "aircraft",
+                  "itemName": "FA-18C_hornet",
+                  "label": "FA-18C - HORNET",
+                  "removedAtLeast": 2
+                },
+                {
+                  "category": "aircraft",
+                  "itemName": "F-16C_50",
+                  "label": "F-16C - VIPER",
+                  "removedAtLeast": 2
+                },
+                {
+                  "category": "weapon",
+                  "itemName": "weapons.containers.AAQ-28_LITENING",
+                  "label": "POD LITENING LEFT",
+                  "removedAtLeast": 2
+                },
+                {
+                  "category": "weapon",
+                  "itemName": "weapons.containers.aaq-28LEFT litening",
+                  "label": "POD LITENING LEFT",
+                  "removedAtLeast": 2
+                },
+                {
+                  "category": "weapon",
+                  "itemName": "weapons.containers.ah-64d_radar",
+                  "label": "FCR CONTROL APACHE",
+                  "removedAtLeast": 2
+                },
+                {
+                  "category": "weapon",
+                  "itemName": "weapons.containers.alq-184long",
+                  "label": "POD CONTRAMEDIDAS ELECTRONICAS",
+                  "removedAtLeast": 2
+                },
+                {
+                  "category": "weapon",
+                  "itemName": "weapons.missiles.AIM_120C",
+                  "label": "AIM 120 C",
+                  "removedAtLeast": 40
+                },
+                {
+                  "category": "weapon",
+                  "itemName": "weapons.missiles.AIM_9X",
+                  "label": "AIM 9 X",
+                  "removedAtLeast": 80
                 }
               ],
               "kind": "warehouse",
               "mode": "all"
             },
             "name": "Sacar aviones y armamento",
-            "requiredForMission": false,
+            "requiredForMission": true,
             "reward": {
               "amount": 15000000,
               "coalition": 2,
@@ -564,9 +709,132 @@
             },
             "targetName": "Andoya"
           },
+          "lastEvalAt": 87.071,
           "lastExists": 0,
           "lastPass": false,
-          "lastSnapshot": []
+          "lastSnapshot": {
+            "baseExists": true,
+            "baseName": "Andoya",
+            "entryId": 20,
+            "entryName": "Andoya",
+            "items": {
+              "aircraft::AH-64D_BLK_II": {
+                "category": "aircraft",
+                "currentCount": 2,
+                "highestCountSeen": 2,
+                "initialCount": 2,
+                "itemExists": true,
+                "itemName": "AH-64D_BLK_II",
+                "removedCount": 0,
+                "resolvedCategory": "aircraft",
+                "resolvedItemKey": "AH-64D_BLK_II",
+                "targetRemoved": 2
+              },
+              "aircraft::F-16C_50": {
+                "category": "aircraft",
+                "currentCount": 0,
+                "highestCountSeen": 0,
+                "initialCount": 0,
+                "itemExists": false,
+                "itemName": "F-16C_50",
+                "removedCount": 0,
+                "resolvedCategory": "aircraft",
+                "resolvedItemKey": "F-16C_50",
+                "targetRemoved": 2
+              },
+              "aircraft::FA-18C_hornet": {
+                "category": "aircraft",
+                "currentCount": 4,
+                "highestCountSeen": 4,
+                "initialCount": 4,
+                "itemExists": true,
+                "itemName": "FA-18C_hornet",
+                "removedCount": 0,
+                "resolvedCategory": "aircraft",
+                "resolvedItemKey": "FA-18C_hornet",
+                "targetRemoved": 2
+              },
+              "weapon::weapons.containers.AAQ-28_LITENING": {
+                "category": "weapon",
+                "currentCount": 2,
+                "highestCountSeen": 2,
+                "initialCount": 2,
+                "itemExists": true,
+                "itemName": "weapons.containers.AAQ-28_LITENING",
+                "removedCount": 0,
+                "resolvedCategory": "weapon",
+                "resolvedItemKey": "weapons.containers.AAQ-28_LITENING",
+                "targetRemoved": 2
+              },
+              "weapon::weapons.containers.aaq-28LEFT litening": {
+                "category": "weapon",
+                "currentCount": 2,
+                "highestCountSeen": 2,
+                "initialCount": 2,
+                "itemExists": true,
+                "itemName": "weapons.containers.aaq-28LEFT litening",
+                "removedCount": 0,
+                "resolvedCategory": "weapon",
+                "resolvedItemKey": "weapons.containers.aaq-28LEFT litening",
+                "targetRemoved": 2
+              },
+              "weapon::weapons.containers.ah-64d_radar": {
+                "category": "weapon",
+                "currentCount": 2,
+                "highestCountSeen": 2,
+                "initialCount": 2,
+                "itemExists": true,
+                "itemName": "weapons.containers.ah-64d_radar",
+                "removedCount": 0,
+                "resolvedCategory": "weapon",
+                "resolvedItemKey": "weapons.containers.ah-64d_radar",
+                "targetRemoved": 2
+              },
+              "weapon::weapons.containers.alq-184long": {
+                "category": "weapon",
+                "currentCount": 2,
+                "highestCountSeen": 2,
+                "initialCount": 2,
+                "itemExists": true,
+                "itemName": "weapons.containers.alq-184long",
+                "removedCount": 0,
+                "resolvedCategory": "weapon",
+                "resolvedItemKey": "weapons.containers.alq-184long",
+                "targetRemoved": 2
+              },
+              "weapon::weapons.missiles.AIM_120C": {
+                "category": "weapon",
+                "currentCount": 40,
+                "highestCountSeen": 40,
+                "initialCount": 40,
+                "itemExists": true,
+                "itemName": "weapons.missiles.AIM_120C",
+                "removedCount": 0,
+                "resolvedCategory": "weapon",
+                "resolvedItemKey": "weapons.missiles.AIM_120C",
+                "targetRemoved": 40
+              },
+              "weapon::weapons.missiles.AIM_9X": {
+                "category": "weapon",
+                "currentCount": 80,
+                "highestCountSeen": 80,
+                "initialCount": 80,
+                "itemExists": true,
+                "itemName": "weapons.missiles.AIM_9X",
+                "removedCount": 0,
+                "resolvedCategory": "weapon",
+                "resolvedItemKey": "weapons.missiles.AIM_9X",
+                "targetRemoved": 80
+              }
+            },
+            "jsonPath": "C:\\Users\\User\\Saved Games\\DCS.openbeta\\Config\\HorizontDev\\KOLA\\SistemWarehousePersistanceKola.json",
+            "mode": "all",
+            "sectionName": "airports",
+            "source": "json",
+            "targetRemovedTotal": 0,
+            "totalRemoved": 0
+          },
+          "lastValue": 0
         },
         "OBJ_RADAR_LLEGA_VIVO_ZONA": {
           "armed": false,
@@ -610,7 +878,130 @@
         }
       },
       "status": 1,
-      "validatorMemory": []
+      "validatorMemory": {
+        "__OBJ_WH__OBJ_MULTI_WAREHOUSE": {
+          "baseExists": true,
+          "baseName": "Andoya",
+          "entryId": 20,
+          "entryName": "Andoya",
+          "items": {
+            "aircraft::AH-64D_BLK_II": {
+              "category": "aircraft",
+              "currentCount": 2,
+              "highestCountSeen": 2,
+              "initialCount": 2,
+              "itemExists": true,
+              "itemName": "AH-64D_BLK_II",
+              "removedCount": 0,
+              "resolvedCategory": "aircraft",
+              "resolvedItemKey": "AH-64D_BLK_II",
+              "targetRemoved": 2
+            },
+            "aircraft::F-16C_50": {
+              "category": "aircraft",
+              "currentCount": 0,
+              "highestCountSeen": 0,
+              "initialCount": 0,
+              "itemExists": false,
+              "itemName": "F-16C_50",
+              "removedCount": 0,
+              "resolvedCategory": "aircraft",
+              "resolvedItemKey": "F-16C_50",
+              "targetRemoved": 2
+            },
+            "aircraft::FA-18C_hornet": {
+              "category": "aircraft",
+              "currentCount": 4,
+              "highestCountSeen": 4,
+              "initialCount": 4,
+              "itemExists": true,
+              "itemName": "FA-18C_hornet",
+              "removedCount": 0,
+              "resolvedCategory": "aircraft",
+              "resolvedItemKey": "FA-18C_hornet",
+              "targetRemoved": 2
+            },
+            "weapon::weapons.containers.AAQ-28_LITENING": {
+              "category": "weapon",
+              "currentCount": 2,
+              "highestCountSeen": 2,
+              "initialCount": 2,
+              "itemExists": true,
+              "itemName": "weapons.containers.AAQ-28_LITENING",
+              "removedCount": 0,
+              "resolvedCategory": "weapon",
+              "resolvedItemKey": "weapons.containers.AAQ-28_LITENING",
+              "targetRemoved": 2
+            },
+            "weapon::weapons.containers.aaq-28LEFT litening": {
+              "category": "weapon",
+              "currentCount": 2,
+              "highestCountSeen": 2,
+              "initialCount": 2,
+              "itemExists": true,
+              "itemName": "weapons.containers.aaq-28LEFT litening",
+              "removedCount": 0,
+              "resolvedCategory": "weapon",
+              "resolvedItemKey": "weapons.containers.aaq-28LEFT litening",
+              "targetRemoved": 2
+            },
+            "weapon::weapons.containers.ah-64d_radar": {
+              "category": "weapon",
+              "currentCount": 2,
+              "highestCountSeen": 2,
+              "initialCount": 2,
+              "itemExists": true,
+              "itemName": "weapons.containers.ah-64d_radar",
+              "removedCount": 0,
+              "resolvedCategory": "weapon",
+              "resolvedItemKey": "weapons.containers.ah-64d_radar",
+              "targetRemoved": 2
+            },
+            "weapon::weapons.containers.alq-184long": {
+              "category": "weapon",
+              "currentCount": 2,
+              "highestCountSeen": 2,
+              "initialCount": 2,
+              "itemExists": true,
+              "itemName": "weapons.containers.alq-184long",
+              "removedCount": 0,
+              "resolvedCategory": "weapon",
+              "resolvedItemKey": "weapons.containers.alq-184long",
+              "targetRemoved": 2
+            },
+            "weapon::weapons.missiles.AIM_120C": {
+              "category": "weapon",
+              "currentCount": 40,
+              "highestCountSeen": 40,
+              "initialCount": 40,
+              "itemExists": true,
+              "itemName": "weapons.missiles.AIM_120C",
+              "removedCount": 0,
+              "resolvedCategory": "weapon",
+              "resolvedItemKey": "weapons.missiles.AIM_120C",
+              "targetRemoved": 40
+            },
+            "weapon::weapons.missiles.AIM_9X": {
+              "category": "weapon",
+              "currentCount": 80,
+              "highestCountSeen": 80,
+              "initialCount": 80,
+              "itemExists": true,
+              "itemName": "weapons.missiles.AIM_9X",
+              "removedCount": 0,
+              "resolvedCategory": "weapon",
+              "resolvedItemKey": "weapons.missiles.AIM_9X",
+              "targetRemoved": 80
+            }
+          },
+          "jsonPath": "C:\\Users\\User\\Saved Games\\DCS.openbeta\\Config\\HorizontDev\\KOLA\\SistemWarehousePersistanceKola.json",
+          "mode": "all",
+          "sectionName": "airports",
+          "source": "json",
+          "targetRemovedTotal": 0,
+          "totalRemoved": 0
+        }
+      }
     }
   }
 }

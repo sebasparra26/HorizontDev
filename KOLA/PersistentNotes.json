@@ -8,42 +8,5 @@
   },
   "nextMarkId": 980003,
   "nextNoteNumber": 4,
-  "notes": {
-    "NOTE_000002": {
-      "author": {},
-      "createdAt": 116.038,
-      "createdAtAbs": 13016.038,
-      "id": "NOTE_000002",
-      "markId": 980001,
-      "originalMarkId": 251658259,
-      "point": {
-        "x": 288312.12274122,
-        "y": 0,
-        "z": -403031.0431062
-      },
-      "rawText": "save: aca hay enemigos",
-      "restoreMarkId": 980001,
-      "text": "aca hay enemigos",
-      "updatedAt": 116.038,
-      "updatedAtAbs": 13016.038
-    },
-    "NOTE_000003": {
-      "author": {},
-      "createdAt": 139.281,
-      "createdAtAbs": 13039.281,
-      "id": "NOTE_000003",
-      "markId": 980002,
-      "originalMarkId": 251658260,
-      "point": {
-        "x": 191342.40959107,
-        "y": 0,
-        "z": -556637.93384846
-      },
-      "rawText": "save: aca hay otra cosa",
-      "restoreMarkId": 980002,
-      "text": "aca hay otra cosa",
-      "updatedAt": 139.281,
-      "updatedAtAbs": 13039.281
-    }
-  }
+  "notes": {}
 }
