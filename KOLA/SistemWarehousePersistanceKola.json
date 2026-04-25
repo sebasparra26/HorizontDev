@@ -5,7 +5,7 @@
   "meta":
   {
     "mode": "live",
-    "missionTime": 92.831,
+    "missionTime": 333.831,
     "injectDuration": 30,
     "exportInterval": 60,
     "source": "DCS Warehouse runtime",
@@ -16,7 +16,7 @@
     {
       "id": 1,
       "name": "Banak",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 855290,
@@ -78,7 +78,7 @@
     {
       "id": 4,
       "name": "Vuojarvi",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -97,7 +97,7 @@
     {
       "id": 5,
       "name": "Kiruna",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -116,7 +116,7 @@
     {
       "id": 6,
       "name": "Severomorsk-3",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 7995062.5,
@@ -155,7 +155,7 @@
     {
       "id": 7,
       "name": "Bodo",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 468809.53125,
@@ -253,7 +253,7 @@
     {
       "id": 8,
       "name": "Severomorsk-1",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 9458576,
@@ -284,7 +284,7 @@
     {
       "id": 9,
       "name": "Olenya",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -303,7 +303,7 @@
     {
       "id": 10,
       "name": "Monchegorsk",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -322,7 +322,7 @@
     {
       "id": 11,
       "name": "Jokkmokk",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 4900,
@@ -343,7 +343,7 @@
     {
       "id": 12,
       "name": "Murmansk International",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -362,7 +362,7 @@
     {
       "id": 13,
       "name": "Kalixfors",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -381,7 +381,7 @@
     {
       "id": 14,
       "name": "Kirkenes",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -400,7 +400,7 @@
     {
       "id": 15,
       "name": "Kallax",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 8636747,
@@ -439,7 +439,7 @@
     {
       "id": 16,
       "name": "Kuusamo",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 800000,
@@ -463,7 +463,7 @@
     {
       "id": 17,
       "name": "Vidsel",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -482,7 +482,7 @@
     {
       "id": 18,
       "name": "Ivalo",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 874.60345458984,
@@ -501,7 +501,7 @@
     {
       "id": 19,
       "name": "Alakurtti",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -520,7 +520,7 @@
     {
       "id": 20,
       "name": "Andoya",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 4369,
@@ -549,7 +549,7 @@
     {
       "id": 21,
       "name": "Bardufoss",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -568,7 +568,7 @@
     {
       "id": 22,
       "name": "Kittila",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 8890647,
@@ -600,7 +600,7 @@
     {
       "id": 23,
       "name": "Hosio",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -619,7 +619,7 @@
     {
       "id": 24,
       "name": "Alta",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -638,7 +638,7 @@
     {
       "id": 25,
       "name": "Evenes",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -657,7 +657,7 @@
     {
       "id": 26,
       "name": "Enontekio",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -676,7 +676,7 @@
     {
       "id": 27,
       "name": "Sodankyla",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 622.42755126953,
@@ -695,7 +695,7 @@
     {
       "id": 28,
       "name": "Kilpyavr",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -714,7 +714,7 @@
     {
       "id": 29,
       "name": "Luostari Pechenga",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -733,7 +733,7 @@
     {
       "id": 30,
       "name": "Koshka Yavr",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -752,7 +752,7 @@
     {
       "id": 31,
       "name": "Poduzhemye",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -771,7 +771,7 @@
     {
       "id": 32,
       "name": "Kalevala",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -790,7 +790,7 @@
     {
       "id": 33,
       "name": "Afrikanda",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -809,7 +809,7 @@
     {
       "id": 34,
       "name": "Boden Heli Base",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -828,7 +828,7 @@
     {
       "id": 35,
       "name": "Hemavan",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 0,
@@ -847,7 +847,7 @@
     {
       "id": 36,
       "name": "Arvidsjaur",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "airbase",
       "liquids": {
         "jet_fuel": 17795.380859375,
@@ -868,7 +868,7 @@
     {
       "id": 2,
       "name": "DDG Arleigh",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "units",
       "liquids": {
         "jet_fuel": 0,
@@ -887,7 +887,7 @@
     {
       "id": 3,
       "name": "CG Ticondegora",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "units",
       "liquids": {
         "jet_fuel": 0,
@@ -906,7 +906,7 @@
     {
       "id": 255,
       "name": "RU_100_Banak_Ship",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "units",
       "liquids": {
         "jet_fuel": 1000000,
@@ -925,7 +925,7 @@
     {
       "id": 339,
       "name": "RU_114_Kallax_Ship",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "units",
       "liquids": {
         "jet_fuel": 1000000,
@@ -944,7 +944,7 @@
     {
       "id": 616,
       "name": "MARSHALL",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "units",
       "liquids": {
         "jet_fuel": 1000000,
@@ -963,7 +963,7 @@
     {
       "id": 617,
       "name": "FFG Oliver",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "units",
       "liquids": {
         "jet_fuel": 0,
@@ -982,7 +982,7 @@
     {
       "id": 618,
       "name": "TARAWA",
-      "missionTime": 92.831,
+      "missionTime": 333.831,
       "categoryName": "units",
       "liquids": {
         "jet_fuel": 1000000,
