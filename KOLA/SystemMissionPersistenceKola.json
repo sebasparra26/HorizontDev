@@ -1,0 +1,202 @@
+{
+  "control": {
+    "autosaveInterval": 10,
+    "importWindowSeconds": 30,
+    "mainLoopInterval": 1,
+    "minWriteInterval": 5
+  },
+  "managedFlags": {
+    "2006": 0,
+    "2007": 1,
+    "2200": 1,
+    "2999": 0
+  },
+  "meta": {
+    "currentMissionId": "M02",
+    "dbVersion": "1.4.13",
+    "engineVersion": "1.4.14",
+    "nextMarkId": 950002,
+    "source": "HDEV_MissionSystem_Core",
+    "updatedAt": 1609.081
+  },
+  "missionCatalog": {
+    "M02": {
+      "autoStart": true,
+      "dbVersion": "1.4.13",
+      "enabled": true,
+      "generalObjective": "Rescata al técnico herido en la zona\n\nLat Long Decimal Minutes: N 69°27.938'   E 25°30.347'\nMGRS GRID: 35 W MT 41511 06998\nAltitude: 130 m / 426 feet\n\n\nLlevalo a la base principal (BODO).\n\n",
+      "hasMap": true,
+      "id": "M02",
+      "name": "Operación - Pajaro Herido",
+      "order": 2,
+      "rewards": {
+        "coalition": 2,
+        "enabled": true,
+        "missionSuccessAmount": 10000000
+      },
+      "secondaryObjectivesCatalog": {
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "drawName": "Rescata al técnico herido",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_01",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Rescata al técnico herido",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2007,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2006,
+            "value": 1
+          },
+          "targetName": "US_TROOP_01"
+        }
+      },
+      "shortName": "M02"
+    }
+  },
+  "missionsState": {
+    "M02": {
+      "activatedAt": 18.081,
+      "id": "M02",
+      "rewardsPaid": {
+        "missionSuccess": false,
+        "secondaryObjectives": []
+      },
+      "secondaryObjectivesCatalog": {
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "drawName": "Rescata al técnico herido",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_01",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Rescata al técnico herido",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2007,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2006,
+            "value": 1
+          },
+          "targetName": "US_TROOP_01"
+        }
+      },
+      "secondaryObjectivesState": {
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "armed": true,
+          "cleanupExecuted": false,
+          "completed": false,
+          "debugStatus": "FUERA_DE_ZONA",
+          "definitionSnapshot": {
+            "drawName": "Rescata al técnico herido",
+            "enabled": true,
+            "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+            "monitor": {
+              "items": [],
+              "kind": "unit_alive_in_zone",
+              "op": "==",
+              "unitName": "US_TROOP_01",
+              "value": 1,
+              "zoneName": "ACA"
+            },
+            "name": "Rescata al técnico herido",
+            "requiredForMission": true,
+            "reward": {
+              "amount": 5000000,
+              "coalition": 2,
+              "enabled": true
+            },
+            "setFlagOnActive": {
+              "elseValue": 0,
+              "flag": 2007,
+              "value": 1
+            },
+            "setFlagOnPass": {
+              "elseValue": 0,
+              "flag": 2006,
+              "value": 1
+            },
+            "targetName": "US_TROOP_01"
+          },
+          "firstSeenAt": 19.081,
+          "lastEvalAt": 1609.081,
+          "lastExists": 1,
+          "lastPass": false,
+          "lastSeenAt": 1609.081,
+          "lastSnapshot": {
+            "alive": 1,
+            "distance2D": 518705.9338075,
+            "exists": true,
+            "inZone": false,
+            "life": 1.039999961853,
+            "life0": 1.039999961853,
+            "lifePercent": 100,
+            "point": {
+              "x": 169159.84680283,
+              "y": 129.89655358891,
+              "z": 113548.9774018
+            },
+            "unitName": "US_TROOP_01",
+            "zoneExists": true,
+            "zoneName": "ACA",
+            "zonePoint": {
+              "x": -66724.041663545,
+              "y": 10.230761528015,
+              "z": -348419.24328994
+            },
+            "zoneRadius": 500.7864
+          },
+          "lastValue": 0
+        }
+      },
+      "status": 1,
+      "validatorMemory": {
+        "TECNICO_HERIDO_MUERTO": {
+          "currentValue": 1,
+          "lastPass": false,
+          "lastSeenAt": 1609.081,
+          "metricName": "alive",
+          "seenOnce": true,
+          "snapshot": {
+            "alive": 1,
+            "exists": true,
+            "life": 1.039999961853,
+            "life0": 1.039999961853,
+            "lifePercent": 100
+          },
+          "unitName": "US_TROOP_01"
+        }
+      }
+    }
+  }
+}

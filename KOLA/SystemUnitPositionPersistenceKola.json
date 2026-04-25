@@ -15,7 +15,7 @@
         },
         "point": {
           "x": -66562.602,
-          "y": -0.006,
+          "y": 0.003,
           "z": -380329.75
         }
       },
@@ -26,7 +26,7 @@
       "countryId": 2,
       "enabled": true,
       "key": "MARSHALL",
-      "lastSeenMissionTime": 332.811,
+      "lastSeenMissionTime": 1533.811,
       "liveGroupName": "MARSHALL",
       "runtimePresent": true,
       "templateGroupName": "MARSHALL",
@@ -42,7 +42,7 @@
           },
           "point": {
             "x": -66562.602,
-            "y": -0.006,
+            "y": 0.003,
             "z": -380329.75
           },
           "runtimeUnitName": "MARSHALL",
@@ -60,7 +60,7 @@
           },
           "point": {
             "x": -67165.086,
-            "y": 0.004,
+            "y": 0.018,
             "z": -379575.594
           },
           "runtimeUnitName": "FFG Oliver",
@@ -97,7 +97,7 @@
         },
         "point": {
           "x": -68999.227,
-          "y": 0.01,
+          "y": 0.013,
           "z": -379399.406
         }
       },
@@ -108,7 +108,7 @@
       "countryId": 2,
       "enabled": true,
       "key": "TARAWA",
-      "lastSeenMissionTime": 332.811,
+      "lastSeenMissionTime": 1533.811,
       "liveGroupName": "TARAWA",
       "runtimePresent": true,
       "templateGroupName": "TARAWA",
@@ -124,7 +124,7 @@
           },
           "point": {
             "x": -68999.227,
-            "y": 0.01,
+            "y": 0.013,
             "z": -379399.406
           },
           "runtimeUnitName": "TARAWA",
@@ -142,7 +142,7 @@
           },
           "point": {
             "x": -68721.953,
-            "y": 0.011,
+            "y": 0.01,
             "z": -378834.344
           },
           "runtimeUnitName": "CG Ticondegora",
@@ -153,7 +153,7 @@
     }
   },
   "meta": {
-    "missionTime": 332.811,
+    "missionTime": 1533.811,
     "mode": "live",
     "note": "El grupo naval original del ME es el persistido",
     "source": "DCS Naval live group"
