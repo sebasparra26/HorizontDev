@@ -1,0 +1,1002 @@
+{
+  "control":
+  {
+  },
+  "meta":
+  {
+    "mode": "live",
+    "missionTime": 92.831,
+    "injectDuration": 30,
+    "exportInterval": 60,
+    "source": "DCS Warehouse runtime",
+    "theatre": "Kola"
+  },
+  "airports": {
+    "1":
+    {
+      "id": 1,
+      "name": "Banak",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 855290,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "MiG-25PD": 100,
+        "MiG-31": 100
+      },
+      "weapon":
+      {
+        "weapons.missiles.P_33E": 100,
+        "weapons.missiles.P_40R": 100,
+        "weapons.missiles.P_40T": 100
+      }
+    },
+    "2":
+    {
+      "id": 2,
+      "name": "Rovaniemi",
+      "missionTime": 333.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 348.88702392578,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "3":
+    {
+      "id": 3,
+      "name": "Kemi Tornio",
+      "missionTime": 333.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "4":
+    {
+      "id": 4,
+      "name": "Vuojarvi",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "5":
+    {
+      "id": 5,
+      "name": "Kiruna",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "6":
+    {
+      "id": 6,
+      "name": "Severomorsk-3",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 7995062.5,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "Ka-50_3": 400,
+        "Mi-24P": 400,
+        "MiG-29S": 400,
+        "Su-27": 400,
+        "Su-33": 400
+      },
+      "weapon":
+      {
+        "weapons.containers.SORBCIJA_L": 400,
+        "weapons.containers.SORBCIJA_R": 400,
+        "weapons.droptanks.PTB-1500": 400,
+        "weapons.missiles.Ataka_9M120": 400,
+        "weapons.missiles.Ataka_9M220": 400,
+        "weapons.missiles.Igla_1E": 408,
+        "weapons.missiles.P_27PE": 400,
+        "weapons.missiles.P_27TE": 400,
+        "weapons.missiles.P_33E": 400,
+        "weapons.missiles.P_40T": 400,
+        "weapons.missiles.P_60": 400,
+        "weapons.missiles.P_73": 400,
+        "weapons.missiles.P_77": 400,
+        "weapons.missiles.Vikhr_M": 400,
+        "weapons.nurs.C_8": 400
+      }
+    },
+    "7":
+    {
+      "id": 7,
+      "name": "Bodo",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 468809.53125,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "A-10C_2": 10,
+        "A-4E-C": 30,
+        "AH-64D_BLK_II": 10,
+        "AJS37": 2,
+        "AV8BNA": 2,
+        "B-1B": 10,
+        "B-52H": 99999996,
+        "C-130J-30": 3,
+        "CH-47D": 8,
+        "CH-47Fbl1": 5,
+        "F-117A": 99999996,
+        "F-14B": 4,
+        "F-15ESE": 2,
+        "F-16C_50": 10,
+        "F-4E-45MC": 8,
+        "FA-18C_hornet": 10,
+        "JF-17": 1,
+        "Mi-24P": 2,
+        "Mi-8MT": 6,
+        "Mirage-F1EE": 4,
+        "OH58D": 8,
+        "SA342L": 4,
+        "SA342M": 4,
+        "UH-1H": 4
+      },
+      "weapon":
+      {
+        "weapons.adapters.lau-88": 99999,
+        "weapons.bombs.AGM_62": 20,
+        "weapons.bombs.AGM_62_I": 10,
+        "weapons.bombs.GBU_27": 99991,
+        "weapons.bombs.MK_82SNAKEYE": 100,
+        "weapons.bombs.Mk_82": 100,
+        "weapons.bombs.Mk_82Y": 100,
+        "weapons.containers.ah-64d_radar": 2,
+        "weapons.containers.alq-184long": 2,
+        "weapons.containers.{CH47_AFT_M240H}": 20,
+        "weapons.containers.{CH47_AFT_M60D}": 20,
+        "weapons.containers.{CH47_PORT_M240H}": 20,
+        "weapons.containers.{CH47_PORT_M60D}": 20,
+        "weapons.containers.{CH47_STBD_M240H}": 20,
+        "weapons.containers.{CH47_STBD_M60D}": 20,
+        "weapons.droptanks.800L Tank": 20,
+        "weapons.droptanks.AV8BNA_AERO1D": 20,
+        "weapons.droptanks.F-15E_Drop_Tank": 20,
+        "weapons.droptanks.F15-PTB": 20,
+        "weapons.droptanks.FPU_8A": 14,
+        "weapons.droptanks.FT600": 20,
+        "weapons.droptanks.HB_A6E_AERO1D": 20,
+        "weapons.droptanks.HB_F-4E_EXT_Center_Fuel_Tank": 20,
+        "weapons.droptanks.HB_F-4E_EXT_WingTank": 20,
+        "weapons.droptanks.HB_F-4E_EXT_WingTank_R": 20,
+        "weapons.droptanks.HB_F14_EXT_DROPTANK": 20,
+        "weapons.droptanks.LNS_VIG_XTANK": 20,
+        "weapons.droptanks.M2KC_02_RPL541": 20,
+        "weapons.droptanks.M2KC_08_RPL541": 20,
+        "weapons.droptanks.M2KC_RPL_522": 20,
+        "weapons.droptanks.MIG-23-PTB": 20,
+        "weapons.droptanks.PTB-1500": 20,
+        "weapons.droptanks.PTB-275": 20,
+        "weapons.droptanks.PTB-450": 20,
+        "weapons.droptanks.PTB-800": 20,
+        "weapons.droptanks.PTB_1500_MIG29A": 20,
+        "weapons.droptanks.PTB_580G_F1": 20,
+        "weapons.droptanks.fuel_tank_230": 20,
+        "weapons.droptanks.fuel_tank_300gal": 20,
+        "weapons.droptanks.fuel_tank_370gal": 20,
+        "weapons.missiles.ADM_141A": 164,
+        "weapons.missiles.AGM_154A": 40,
+        "weapons.missiles.AGM_86": 999999975,
+        "weapons.missiles.AIM-7P": 30,
+        "weapons.missiles.AIM-9L": 30,
+        "weapons.missiles.AIM-9P": 30,
+        "weapons.missiles.AIM_120": 40,
+        "weapons.missiles.AIM_120C": 28,
+        "weapons.missiles.AIM_54C_Mk47": 40,
+        "weapons.missiles.AIM_9": 60,
+        "weapons.missiles.AIM_9X": 18,
+        "weapons.missiles.CHAP_AIM92": 30,
+        "weapons.missiles.LD-10": 10,
+        "weapons.missiles.OH58D_FIM_92": 50,
+        "weapons.missiles.P_60": 30
+      }
+    },
+    "8":
+    {
+      "id": 8,
+      "name": "Severomorsk-1",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 9458576,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "Su-34": 996,
+        "Tu-95MS": 992
+      },
+      "weapon":
+      {
+        "weapons.bombs.KAB_500": 200,
+        "weapons.bombs.KAB_500S": 200,
+        "weapons.containers.SORBCIJA_L": 197,
+        "weapons.containers.SORBCIJA_R": 197,
+        "weapons.missiles.P_27P": 194,
+        "weapons.missiles.P_73": 194,
+        "weapons.missiles.P_77": 200,
+        "weapons.missiles.X_101": 176,
+        "weapons.missiles.X_31P": 188,
+        "weapons.missiles.X_59M": 200
+      }
+    },
+    "9":
+    {
+      "id": 9,
+      "name": "Olenya",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "10":
+    {
+      "id": 10,
+      "name": "Monchegorsk",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "11":
+    {
+      "id": 11,
+      "name": "Jokkmokk",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 4900,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "FA-18C_hornet": 1
+      },
+      "weapon":
+      {
+        "weapons.missiles.AIM_9X": 1
+      }
+    },
+    "12":
+    {
+      "id": 12,
+      "name": "Murmansk International",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "13":
+    {
+      "id": 13,
+      "name": "Kalixfors",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "14":
+    {
+      "id": 14,
+      "name": "Kirkenes",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "15":
+    {
+      "id": 15,
+      "name": "Kallax",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 8636747,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "Ka-50_3": 200,
+        "Mi-24P": 200,
+        "MiG-29S": 199,
+        "Su-27": 198,
+        "Su-33": 189
+      },
+      "weapon":
+      {
+        "weapons.containers.SORBCIJA_L": 398,
+        "weapons.containers.SORBCIJA_R": 398,
+        "weapons.droptanks.PTB-1500": 400,
+        "weapons.missiles.Ataka_9M120": 400,
+        "weapons.missiles.Ataka_9M220": 400,
+        "weapons.missiles.Igla_1E": 400,
+        "weapons.missiles.P_27PE": 392,
+        "weapons.missiles.P_27TE": 396,
+        "weapons.missiles.P_33E": 400,
+        "weapons.missiles.P_40T": 400,
+        "weapons.missiles.P_60": 600,
+        "weapons.missiles.P_73": 368,
+        "weapons.missiles.P_77": 376,
+        "weapons.missiles.Vikhr_M": 424,
+        "weapons.nurs.C_8": 480
+      }
+    },
+    "16":
+    {
+      "id": 16,
+      "name": "Kuusamo",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 800000,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "MiG-25PD": 100,
+        "MiG-31": 100
+      },
+      "weapon":
+      {
+        "weapons.missiles.P_33E": 100,
+        "weapons.missiles.P_40R": 100,
+        "weapons.missiles.P_40T": 100
+      }
+    },
+    "17":
+    {
+      "id": 17,
+      "name": "Vidsel",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "18":
+    {
+      "id": 18,
+      "name": "Ivalo",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 874.60345458984,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "19":
+    {
+      "id": 19,
+      "name": "Alakurtti",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "20":
+    {
+      "id": 20,
+      "name": "Andoya",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 4369,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "AH-64D_BLK_II": 2,
+        "F-16C bl.50": 2,
+        "FA-18C_hornet": 4,
+        "UH-1H": 1
+      },
+      "weapon":
+      {
+        "weapons.containers.AAQ-28_LITENING": 2,
+        "weapons.containers.aaq-28LEFT litening": 2,
+        "weapons.containers.ah-64d_radar": 2,
+        "weapons.containers.alq-184long": 2,
+        "weapons.missiles.AIM_120C": 40,
+        "weapons.missiles.AIM_9X": 80
+      }
+    },
+    "21":
+    {
+      "id": 21,
+      "name": "Bardufoss",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "22":
+    {
+      "id": 22,
+      "name": "Kittila",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 8890647,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+        "Ka-50_3": 199,
+        "Mi-24P": 200,
+        "MiG-21Bis": 198,
+        "MiG-29 Fulcrum": 200
+      },
+      "weapon":
+      {
+        "weapons.containers.ASO-2": 198,
+        "weapons.droptanks.PTB-800-MIG21": 198,
+        "weapons.droptanks.PTB_1500_MIG29A": 200,
+        "weapons.missiles.Ataka_9M220": 200,
+        "weapons.missiles.Igla_1E": 200,
+        "weapons.missiles.P_27PE": 199,
+        "weapons.missiles.P_73": 200,
+        "weapons.missiles.Vikhr_M": 200,
+        "weapons.nurs.C_8": 200
+      }
+    },
+    "23":
+    {
+      "id": 23,
+      "name": "Hosio",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "24":
+    {
+      "id": 24,
+      "name": "Alta",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "25":
+    {
+      "id": 25,
+      "name": "Evenes",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "26":
+    {
+      "id": 26,
+      "name": "Enontekio",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "27":
+    {
+      "id": 27,
+      "name": "Sodankyla",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 622.42755126953,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "28":
+    {
+      "id": 28,
+      "name": "Kilpyavr",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "29":
+    {
+      "id": 29,
+      "name": "Luostari Pechenga",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "30":
+    {
+      "id": 30,
+      "name": "Koshka Yavr",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "31":
+    {
+      "id": 31,
+      "name": "Poduzhemye",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "32":
+    {
+      "id": 32,
+      "name": "Kalevala",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "33":
+    {
+      "id": 33,
+      "name": "Afrikanda",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "34":
+    {
+      "id": 34,
+      "name": "Boden Heli Base",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "35":
+    {
+      "id": 35,
+      "name": "Hemavan",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "36":
+    {
+      "id": 36,
+      "name": "Arvidsjaur",
+      "missionTime": 92.831,
+      "categoryName": "airbase",
+      "liquids": {
+        "jet_fuel": 17795.380859375,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    }
+  },
+  "warehouses": {
+    "2":
+    {
+      "id": 2,
+      "name": "DDG Arleigh",
+      "missionTime": 92.831,
+      "categoryName": "units",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "3":
+    {
+      "id": 3,
+      "name": "CG Ticondegora",
+      "missionTime": 92.831,
+      "categoryName": "units",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "255":
+    {
+      "id": 255,
+      "name": "RU_100_Banak_Ship",
+      "missionTime": 92.831,
+      "categoryName": "units",
+      "liquids": {
+        "jet_fuel": 1000000,
+        "gasoline": 1000000,
+        "methanol_mixture": 1000000,
+        "diesel": 1000000
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "339":
+    {
+      "id": 339,
+      "name": "RU_114_Kallax_Ship",
+      "missionTime": 92.831,
+      "categoryName": "units",
+      "liquids": {
+        "jet_fuel": 1000000,
+        "gasoline": 1000000,
+        "methanol_mixture": 1000000,
+        "diesel": 1000000
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "616":
+    {
+      "id": 616,
+      "name": "MARSHALL",
+      "missionTime": 92.831,
+      "categoryName": "units",
+      "liquids": {
+        "jet_fuel": 1000000,
+        "gasoline": 1000000,
+        "methanol_mixture": 1000000,
+        "diesel": 1000000
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "617":
+    {
+      "id": 617,
+      "name": "FFG Oliver",
+      "missionTime": 92.831,
+      "categoryName": "units",
+      "liquids": {
+        "jet_fuel": 0,
+        "gasoline": 0,
+        "methanol_mixture": 0,
+        "diesel": 0
+      },
+      "aircraft":
+      {
+      },
+      "weapon":
+      {
+      }
+    },
+    "618":
+    {
+      "id": 618,
+      "name": "TARAWA",
+      "missionTime": 92.831,
+      "categoryName": "units",
+      "liquids": {
+        "jet_fuel": 1000000,
+        "gasoline": 1000000,
+        "methanol_mixture": 1000000,
+        "diesel": 1000000
+      },
+      "aircraft":
+      {
+        "UH-1H": 9
+      },
+      "weapon":
+      {
+      }
+    }
+  }
+}

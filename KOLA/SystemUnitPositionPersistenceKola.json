@@ -1,0 +1,161 @@
+{
+  "control": {
+    "exportInterval": 300,
+    "injectDuration": 30,
+    "injectInterval": 1
+  },
+  "groups": {
+    "MARSHALL": {
+      "alive": true,
+      "anchor": {
+        "heading": 4.817109,
+        "mapPoint": {
+          "x": -66562.602,
+          "y": -380329.75
+        },
+        "point": {
+          "x": -66562.602,
+          "y": -0.011,
+          "z": -380329.75
+        }
+      },
+      "category": "ship",
+      "coalition": "blue",
+      "coalitionId": 2,
+      "country": "usa",
+      "countryId": 2,
+      "enabled": true,
+      "key": "MARSHALL",
+      "lastSeenMissionTime": 32.811,
+      "liveGroupName": "MARSHALL",
+      "runtimePresent": true,
+      "templateGroupName": "MARSHALL",
+      "units": [
+        {
+          "alive": true,
+          "heading": 4.817109,
+          "index": 1,
+          "life": 7300,
+          "mapPoint": {
+            "x": -66562.602,
+            "y": -380329.75
+          },
+          "point": {
+            "x": -66562.602,
+            "y": -0.011,
+            "z": -380329.75
+          },
+          "runtimeUnitName": "MARSHALL",
+          "templateUnitName": "MARSHALL",
+          "type": "CVN_73"
+        },
+        {
+          "alive": true,
+          "heading": 4.782202,
+          "index": 2,
+          "life": 2100,
+          "mapPoint": {
+            "x": -67165.086,
+            "y": -379575.594
+          },
+          "point": {
+            "x": -67165.086,
+            "y": 0.03,
+            "z": -379575.594
+          },
+          "runtimeUnitName": "FFG Oliver",
+          "templateUnitName": "FFG Oliver",
+          "type": "PERRY"
+        },
+        {
+          "alive": true,
+          "heading": 4.921828,
+          "index": 3,
+          "life": 2100,
+          "mapPoint": {
+            "x": -66087.562,
+            "y": -379490.562
+          },
+          "point": {
+            "x": -66087.562,
+            "y": 0.002,
+            "z": -379490.562
+          },
+          "runtimeUnitName": "DDG Arleigh",
+          "templateUnitName": "DDG Arleigh",
+          "type": "USS_Arleigh_Burke_IIa"
+        }
+      ]
+    },
+    "TARAWA": {
+      "alive": true,
+      "anchor": {
+        "heading": 4.607669,
+        "mapPoint": {
+          "x": -68999.227,
+          "y": -379399.406
+        },
+        "point": {
+          "x": -68999.227,
+          "y": 0.008,
+          "z": -379399.406
+        }
+      },
+      "category": "ship",
+      "coalition": "blue",
+      "coalitionId": 2,
+      "country": "usa",
+      "countryId": 2,
+      "enabled": true,
+      "key": "TARAWA",
+      "lastSeenMissionTime": 32.811,
+      "liveGroupName": "TARAWA",
+      "runtimePresent": true,
+      "templateGroupName": "TARAWA",
+      "units": [
+        {
+          "alive": true,
+          "heading": 4.607669,
+          "index": 1,
+          "life": 7300,
+          "mapPoint": {
+            "x": -68999.227,
+            "y": -379399.406
+          },
+          "point": {
+            "x": -68999.227,
+            "y": 0.008,
+            "z": -379399.406
+          },
+          "runtimeUnitName": "TARAWA",
+          "templateUnitName": "TARAWA",
+          "type": "LHA_Tarawa"
+        },
+        {
+          "alive": true,
+          "heading": 4.607669,
+          "index": 2,
+          "life": 2700,
+          "mapPoint": {
+            "x": -68721.953,
+            "y": -378834.344
+          },
+          "point": {
+            "x": -68721.953,
+            "y": 0.003,
+            "z": -378834.344
+          },
+          "runtimeUnitName": "CG Ticondegora",
+          "templateUnitName": "CG Ticondegora",
+          "type": "TICONDEROG"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "missionTime": 32.811,
+    "mode": "live",
+    "note": "El grupo naval original del ME es el persistido",
+    "source": "DCS Naval live group"
+  }
+}
