@@ -928,10 +928,10 @@
       "missionTime": 92.831,
       "categoryName": "units",
       "liquids": {
-        "jet_fuel": 0,
-        "gasoline": 0,
-        "methanol_mixture": 0,
-        "diesel": 0
+        "jet_fuel": 1000000,
+        "gasoline": 1000000,
+        "methanol_mixture": 1000000,
+        "diesel": 1000000
       },
       "aircraft":
       {

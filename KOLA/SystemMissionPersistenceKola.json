@@ -6,30 +6,31 @@
     "minWriteInterval": 5
   },
   "managedFlags": {
-    "2000": 0,
-    "2001": 1,
-    "2002": 0,
-    "2003": 1,
-    "2004": 0,
-    "2005": 1,
+    "2000": 1,
+    "2001": 0,
+    "2003": 0,
+    "2005": 0,
     "2006": 0,
-    "2007": 0,
-    "2100": 1
+    "2007": 1,
+    "2009": 0,
+    "2100": 1,
+    "2101": 1,
+    "2200": 1
   },
   "meta": {
-    "currentMissionId": "M01",
+    "currentMissionId": "M02",
     "dbVersion": "1.4.13",
     "engineVersion": "1.4.14",
-    "nextMarkId": 950003,
+    "nextMarkId": 950004,
     "source": "HDEV_MissionSystem_Core",
-    "updatedAt": 87.071
+    "updatedAt": 127.081
   },
   "missionCatalog": {
     "M01": {
       "autoStart": true,
       "dbVersion": "1.4.13",
       "enabled": true,
-      "generalObjective": "Captura, Neutraliza y extrae los recursos del enemigo",
+      "generalObjective": "Captura, Neutraliza y extrae los recursos del enemigo\nLat Long Decimal Minutes: N 69°17.588'   E 16°08.456'\nMGRS GRID: 33 W WS 45020 87468\nAltitude: 6 m / 21 feet\n",
       "hasMap": true,
       "id": "M01",
       "name": "Operación - Recuperación",
@@ -42,7 +43,7 @@
       "secondaryObjectivesCatalog": {
         "OBJ_CAPTURAR_BASE": {
           "drawName": "Capturar base Andoya",
-          "enabled": true,
+          "enabled": false,
           "id": "OBJ_CAPTURAR_BASE",
           "monitor": {
             "baseName": "Andoya",
@@ -52,7 +53,7 @@
             "op": "=="
           },
           "name": "Capturar Andoya",
-          "requiredForMission": true,
+          "requiredForMission": false,
           "reward": {
             "amount": 50000000,
             "coalition": 2,
@@ -103,7 +104,7 @@
         },
         "OBJ_DESTRUIR_GRUPO_SHIP": {
           "drawName": "Destruir el barco enemigo",
-          "enabled": true,
+          "enabled": false,
           "id": "OBJ_DESTRUIR_GRUPO_SHIP",
           "monitor": {
             "groupName": "MT_01_SHIP",
@@ -114,7 +115,7 @@
             "value": 0
           },
           "name": "SHIP",
-          "requiredForMission": true,
+          "requiredForMission": false,
           "reward": {
             "amount": 60000000,
             "coalition": 2,
@@ -134,7 +135,7 @@
         },
         "OBJ_MULTI_WAREHOUSE": {
           "drawName": "Sacar aviones y armamento",
-          "enabled": true,
+          "enabled": false,
           "id": "OBJ_MULTI_WAREHOUSE",
           "monitor": {
             "baseName": "Andoya",
@@ -198,7 +199,7 @@
             "mode": "all"
           },
           "name": "Sacar aviones y armamento",
-          "requiredForMission": true,
+          "requiredForMission": false,
           "reward": {
             "amount": 15000000,
             "coalition": 2,
@@ -237,32 +238,84 @@
           },
           "setFlagOnActive": {
             "elseValue": 0,
-            "flag": 2007,
+            "flag": 2009,
             "value": 1
           },
           "setFlagOnPass": {
             "elseValue": 0,
-            "flag": 2006,
+            "flag": 2008,
             "value": 1
           },
           "targetName": "US_TROOP"
         }
       },
       "shortName": "M01"
+    },
+    "M02": {
+      "autoStart": true,
+      "dbVersion": "1.4.13",
+      "enabled": true,
+      "generalObjective": "Rescata al técnico herido en la zona\n\nLat Long Decimal Minutes: N 69°27.938'   E 25°30.347'\nMGRS GRID: 35 W MT 41511 06998\nAltitude: 130 m / 426 feet\n\n\nLlevalo a la base principal (BODO).\n\n",
+      "hasMap": true,
+      "id": "M02",
+      "name": "Operación - Pajaro Herido",
+      "order": 2,
+      "rewards": {
+        "coalition": 2,
+        "enabled": true,
+        "missionSuccessAmount": 10000000
+      },
+      "secondaryObjectivesCatalog": {
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "drawName": "Rescata al técnico herido",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_01",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Rescata al técnico herido",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 500000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2007,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2006,
+            "value": 1
+          },
+          "targetName": "US_TROOP_01"
+        }
+      },
+      "shortName": "M02"
     }
   },
   "missionsState": {
     "M01": {
-      "activatedAt": 18.061,
+      "activatedAt": 18.081,
+      "completedAt": 54.081,
       "id": "M01",
       "rewardsPaid": {
-        "missionSuccess": false,
-        "secondaryObjectives": []
+        "missionSuccess": true,
+        "secondaryObjectives": {
+          "OBJ_DESTRUIR_GRUPO_SAM": true
+        }
       },
       "secondaryObjectivesCatalog": {
         "OBJ_CAPTURAR_BASE": {
           "drawName": "Capturar base Andoya",
-          "enabled": true,
+          "enabled": false,
           "id": "OBJ_CAPTURAR_BASE",
           "monitor": {
             "baseName": "Andoya",
@@ -272,7 +325,7 @@
             "op": "=="
           },
           "name": "Capturar Andoya",
-          "requiredForMission": true,
+          "requiredForMission": false,
           "reward": {
             "amount": 50000000,
             "coalition": 2,
@@ -323,7 +376,7 @@
         },
         "OBJ_DESTRUIR_GRUPO_SHIP": {
           "drawName": "Destruir el barco enemigo",
-          "enabled": true,
+          "enabled": false,
           "id": "OBJ_DESTRUIR_GRUPO_SHIP",
           "monitor": {
             "groupName": "MT_01_SHIP",
@@ -334,7 +387,7 @@
             "value": 0
           },
           "name": "SHIP",
-          "requiredForMission": true,
+          "requiredForMission": false,
           "reward": {
             "amount": 60000000,
             "coalition": 2,
@@ -354,7 +407,7 @@
         },
         "OBJ_MULTI_WAREHOUSE": {
           "drawName": "Sacar aviones y armamento",
-          "enabled": true,
+          "enabled": false,
           "id": "OBJ_MULTI_WAREHOUSE",
           "monitor": {
             "baseName": "Andoya",
@@ -418,7 +471,7 @@
             "mode": "all"
           },
           "name": "Sacar aviones y armamento",
-          "requiredForMission": true,
+          "requiredForMission": false,
           "reward": {
             "amount": 15000000,
             "coalition": 2,
@@ -457,12 +510,12 @@
           },
           "setFlagOnActive": {
             "elseValue": 0,
-            "flag": 2007,
+            "flag": 2009,
             "value": 1
           },
           "setFlagOnPass": {
             "elseValue": 0,
-            "flag": 2006,
+            "flag": 2008,
             "value": 1
           },
           "targetName": "US_TROOP"
@@ -473,10 +526,10 @@
           "armed": false,
           "cleanupExecuted": false,
           "completed": false,
-          "debugStatus": "PENDIENTE",
+          "debugStatus": "NO_EVALUADO",
           "definitionSnapshot": {
             "drawName": "Capturar base Andoya",
-            "enabled": true,
+            "enabled": false,
             "id": "OBJ_CAPTURAR_BASE",
             "monitor": {
               "baseName": "Andoya",
@@ -486,7 +539,7 @@
               "op": "=="
             },
             "name": "Capturar Andoya",
-            "requiredForMission": true,
+            "requiredForMission": false,
             "reward": {
               "amount": 50000000,
               "coalition": 2,
@@ -504,25 +557,16 @@
             },
             "targetName": "Andoya"
           },
-          "lastEvalAt": 87.071,
           "lastExists": 0,
           "lastPass": false,
-          "lastSnapshot": {
-            "baseName": "Andoya",
-            "category": 0,
-            "coalition": 1,
-            "coalitionText": "ROJO",
-            "exists": true,
-            "targetCoalition": 2,
-            "targetCoalitionText": "AZUL"
-          },
-          "lastValue": 1
+          "lastSnapshot": []
         },
         "OBJ_DESTRUIR_GRUPO_SAM": {
           "armed": true,
           "cleanupExecuted": false,
-          "completed": false,
-          "debugStatus": "PENDIENTE",
+          "completed": true,
+          "completedAt": 54.081,
+          "debugStatus": "PASS",
           "definitionSnapshot": {
             "drawName": "Destruir el radar EWR",
             "enabled": true,
@@ -554,29 +598,29 @@
             },
             "targetName": "MT_01_EWR"
           },
-          "firstSeenAt": 19.061,
-          "lastEvalAt": 87.071,
-          "lastExists": 1,
-          "lastPass": false,
-          "lastSeenAt": 87.071,
+          "firstSeenAt": 19.081,
+          "lastEvalAt": 54.081,
+          "lastExists": 0,
+          "lastPass": true,
+          "lastSeenAt": 53.081,
           "lastSnapshot": {
-            "aliveUnits": 1,
-            "exists": true,
-            "life0Sum": 2,
-            "lifePercent": 100,
-            "lifeSum": 2,
-            "totalUnits": 1
+            "aliveUnits": 0,
+            "exists": false,
+            "life0Sum": 0,
+            "lifePercent": 0,
+            "lifeSum": 0,
+            "totalUnits": 0
           },
-          "lastValue": 1
+          "lastValue": 0
         },
         "OBJ_DESTRUIR_GRUPO_SHIP": {
-          "armed": true,
+          "armed": false,
           "cleanupExecuted": false,
           "completed": false,
-          "debugStatus": "PENDIENTE",
+          "debugStatus": "NO_EVALUADO",
           "definitionSnapshot": {
             "drawName": "Destruir el barco enemigo",
-            "enabled": true,
+            "enabled": false,
             "id": "OBJ_DESTRUIR_GRUPO_SHIP",
             "monitor": {
               "groupName": "MT_01_SHIP",
@@ -587,7 +631,7 @@
               "value": 0
             },
             "name": "SHIP",
-            "requiredForMission": true,
+            "requiredForMission": false,
             "reward": {
               "amount": 60000000,
               "coalition": 2,
@@ -605,29 +649,18 @@
             },
             "targetName": "MT_01_SHIP"
           },
-          "firstSeenAt": 19.061,
-          "lastEvalAt": 87.071,
-          "lastExists": 1,
+          "lastExists": 0,
           "lastPass": false,
-          "lastSeenAt": 87.071,
-          "lastSnapshot": {
-            "aliveUnits": 1,
-            "exists": true,
-            "life0Sum": 1600,
-            "lifePercent": 100,
-            "lifeSum": 1600,
-            "totalUnits": 1
-          },
-          "lastValue": 1
+          "lastSnapshot": []
         },
         "OBJ_MULTI_WAREHOUSE": {
           "armed": false,
           "cleanupExecuted": false,
           "completed": false,
-          "debugStatus": "PENDIENTE",
+          "debugStatus": "NO_EVALUADO",
           "definitionSnapshot": {
             "drawName": "Sacar aviones y armamento",
-            "enabled": true,
+            "enabled": false,
             "id": "OBJ_MULTI_WAREHOUSE",
             "monitor": {
               "baseName": "Andoya",
@@ -691,7 +724,7 @@
               "mode": "all"
             },
             "name": "Sacar aviones y armamento",
-            "requiredForMission": true,
+            "requiredForMission": false,
             "reward": {
               "amount": 15000000,
               "coalition": 2,
@@ -709,132 +742,9 @@
             },
             "targetName": "Andoya"
           },
-          "lastEvalAt": 87.071,
           "lastExists": 0,
           "lastPass": false,
-          "lastSnapshot": {
-            "baseExists": true,
-            "baseName": "Andoya",
-            "entryId": 20,
-            "entryName": "Andoya",
-            "items": {
-              "aircraft::AH-64D_BLK_II": {
-                "category": "aircraft",
-                "currentCount": 2,
-                "highestCountSeen": 2,
-                "initialCount": 2,
-                "itemExists": true,
-                "itemName": "AH-64D_BLK_II",
-                "removedCount": 0,
-                "resolvedCategory": "aircraft",
-                "resolvedItemKey": "AH-64D_BLK_II",
-                "targetRemoved": 2
-              },
-              "aircraft::F-16C_50": {
-                "category": "aircraft",
-                "currentCount": 0,
-                "highestCountSeen": 0,
-                "initialCount": 0,
-                "itemExists": false,
-                "itemName": "F-16C_50",
-                "removedCount": 0,
-                "resolvedCategory": "aircraft",
-                "resolvedItemKey": "F-16C_50",
-                "targetRemoved": 2
-              },
-              "aircraft::FA-18C_hornet": {
-                "category": "aircraft",
-                "currentCount": 4,
-                "highestCountSeen": 4,
-                "initialCount": 4,
-                "itemExists": true,
-                "itemName": "FA-18C_hornet",
-                "removedCount": 0,
-                "resolvedCategory": "aircraft",
-                "resolvedItemKey": "FA-18C_hornet",
-                "targetRemoved": 2
-              },
-              "weapon::weapons.containers.AAQ-28_LITENING": {
-                "category": "weapon",
-                "currentCount": 2,
-                "highestCountSeen": 2,
-                "initialCount": 2,
-                "itemExists": true,
-                "itemName": "weapons.containers.AAQ-28_LITENING",
-                "removedCount": 0,
-                "resolvedCategory": "weapon",
-                "resolvedItemKey": "weapons.containers.AAQ-28_LITENING",
-                "targetRemoved": 2
-              },
-              "weapon::weapons.containers.aaq-28LEFT litening": {
-                "category": "weapon",
-                "currentCount": 2,
-                "highestCountSeen": 2,
-                "initialCount": 2,
-                "itemExists": true,
-                "itemName": "weapons.containers.aaq-28LEFT litening",
-                "removedCount": 0,
-                "resolvedCategory": "weapon",
-                "resolvedItemKey": "weapons.containers.aaq-28LEFT litening",
-                "targetRemoved": 2
-              },
-              "weapon::weapons.containers.ah-64d_radar": {
-                "category": "weapon",
-                "currentCount": 2,
-                "highestCountSeen": 2,
-                "initialCount": 2,
-                "itemExists": true,
-                "itemName": "weapons.containers.ah-64d_radar",
-                "removedCount": 0,
-                "resolvedCategory": "weapon",
-                "resolvedItemKey": "weapons.containers.ah-64d_radar",
-                "targetRemoved": 2
-              },
-              "weapon::weapons.containers.alq-184long": {
-                "category": "weapon",
-                "currentCount": 2,
-                "highestCountSeen": 2,
-                "initialCount": 2,
-                "itemExists": true,
-                "itemName": "weapons.containers.alq-184long",
-                "removedCount": 0,
-                "resolvedCategory": "weapon",
-                "resolvedItemKey": "weapons.containers.alq-184long",
-                "targetRemoved": 2
-              },
-              "weapon::weapons.missiles.AIM_120C": {
-                "category": "weapon",
-                "currentCount": 40,
-                "highestCountSeen": 40,
-                "initialCount": 40,
-                "itemExists": true,
-                "itemName": "weapons.missiles.AIM_120C",
-                "removedCount": 0,
-                "resolvedCategory": "weapon",
-                "resolvedItemKey": "weapons.missiles.AIM_120C",
-                "targetRemoved": 40
-              },
-              "weapon::weapons.missiles.AIM_9X": {
-                "category": "weapon",
-                "currentCount": 80,
-                "highestCountSeen": 80,
-                "initialCount": 80,
-                "itemExists": true,
-                "itemName": "weapons.missiles.AIM_9X",
-                "removedCount": 0,
-                "resolvedCategory": "weapon",
-                "resolvedItemKey": "weapons.missiles.AIM_9X",
-                "targetRemoved": 80
-              }
-            },
-            "jsonPath": "C:\\Users\\User\\Saved Games\\DCS.openbeta\\Config\\HorizontDev\\KOLA\\SistemWarehousePersistanceKola.json",
-            "mode": "all",
-            "sectionName": "airports",
-            "source": "json",
-            "targetRemovedTotal": 0,
-            "totalRemoved": 0
-          },
-          "lastValue": 0
+          "lastSnapshot": []
         },
         "OBJ_RADAR_LLEGA_VIVO_ZONA": {
           "armed": false,
@@ -862,12 +772,12 @@
             },
             "setFlagOnActive": {
               "elseValue": 0,
-              "flag": 2007,
+              "flag": 2009,
               "value": 1
             },
             "setFlagOnPass": {
               "elseValue": 0,
-              "flag": 2006,
+              "flag": 2008,
               "value": 1
             },
             "targetName": "US_TROOP"
@@ -877,131 +787,119 @@
           "lastSnapshot": []
         }
       },
-      "status": 1,
-      "validatorMemory": {
-        "__OBJ_WH__OBJ_MULTI_WAREHOUSE": {
-          "baseExists": true,
-          "baseName": "Andoya",
-          "entryId": 20,
-          "entryName": "Andoya",
-          "items": {
-            "aircraft::AH-64D_BLK_II": {
-              "category": "aircraft",
-              "currentCount": 2,
-              "highestCountSeen": 2,
-              "initialCount": 2,
-              "itemExists": true,
-              "itemName": "AH-64D_BLK_II",
-              "removedCount": 0,
-              "resolvedCategory": "aircraft",
-              "resolvedItemKey": "AH-64D_BLK_II",
-              "targetRemoved": 2
-            },
-            "aircraft::F-16C_50": {
-              "category": "aircraft",
-              "currentCount": 0,
-              "highestCountSeen": 0,
-              "initialCount": 0,
-              "itemExists": false,
-              "itemName": "F-16C_50",
-              "removedCount": 0,
-              "resolvedCategory": "aircraft",
-              "resolvedItemKey": "F-16C_50",
-              "targetRemoved": 2
-            },
-            "aircraft::FA-18C_hornet": {
-              "category": "aircraft",
-              "currentCount": 4,
-              "highestCountSeen": 4,
-              "initialCount": 4,
-              "itemExists": true,
-              "itemName": "FA-18C_hornet",
-              "removedCount": 0,
-              "resolvedCategory": "aircraft",
-              "resolvedItemKey": "FA-18C_hornet",
-              "targetRemoved": 2
-            },
-            "weapon::weapons.containers.AAQ-28_LITENING": {
-              "category": "weapon",
-              "currentCount": 2,
-              "highestCountSeen": 2,
-              "initialCount": 2,
-              "itemExists": true,
-              "itemName": "weapons.containers.AAQ-28_LITENING",
-              "removedCount": 0,
-              "resolvedCategory": "weapon",
-              "resolvedItemKey": "weapons.containers.AAQ-28_LITENING",
-              "targetRemoved": 2
-            },
-            "weapon::weapons.containers.aaq-28LEFT litening": {
-              "category": "weapon",
-              "currentCount": 2,
-              "highestCountSeen": 2,
-              "initialCount": 2,
-              "itemExists": true,
-              "itemName": "weapons.containers.aaq-28LEFT litening",
-              "removedCount": 0,
-              "resolvedCategory": "weapon",
-              "resolvedItemKey": "weapons.containers.aaq-28LEFT litening",
-              "targetRemoved": 2
-            },
-            "weapon::weapons.containers.ah-64d_radar": {
-              "category": "weapon",
-              "currentCount": 2,
-              "highestCountSeen": 2,
-              "initialCount": 2,
-              "itemExists": true,
-              "itemName": "weapons.containers.ah-64d_radar",
-              "removedCount": 0,
-              "resolvedCategory": "weapon",
-              "resolvedItemKey": "weapons.containers.ah-64d_radar",
-              "targetRemoved": 2
-            },
-            "weapon::weapons.containers.alq-184long": {
-              "category": "weapon",
-              "currentCount": 2,
-              "highestCountSeen": 2,
-              "initialCount": 2,
-              "itemExists": true,
-              "itemName": "weapons.containers.alq-184long",
-              "removedCount": 0,
-              "resolvedCategory": "weapon",
-              "resolvedItemKey": "weapons.containers.alq-184long",
-              "targetRemoved": 2
-            },
-            "weapon::weapons.missiles.AIM_120C": {
-              "category": "weapon",
-              "currentCount": 40,
-              "highestCountSeen": 40,
-              "initialCount": 40,
-              "itemExists": true,
-              "itemName": "weapons.missiles.AIM_120C",
-              "removedCount": 0,
-              "resolvedCategory": "weapon",
-              "resolvedItemKey": "weapons.missiles.AIM_120C",
-              "targetRemoved": 40
-            },
-            "weapon::weapons.missiles.AIM_9X": {
-              "category": "weapon",
-              "currentCount": 80,
-              "highestCountSeen": 80,
-              "initialCount": 80,
-              "itemExists": true,
-              "itemName": "weapons.missiles.AIM_9X",
-              "removedCount": 0,
-              "resolvedCategory": "weapon",
-              "resolvedItemKey": "weapons.missiles.AIM_9X",
-              "targetRemoved": 80
-            }
+      "status": 2,
+      "validatorMemory": []
+    },
+    "M02": {
+      "activatedAt": 55.081,
+      "id": "M02",
+      "rewardsPaid": {
+        "missionSuccess": false,
+        "secondaryObjectives": []
+      },
+      "secondaryObjectivesCatalog": {
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "drawName": "Rescata al técnico herido",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_01",
+            "value": 1,
+            "zoneName": "ACA"
           },
-          "jsonPath": "C:\\Users\\User\\Saved Games\\DCS.openbeta\\Config\\HorizontDev\\KOLA\\SistemWarehousePersistanceKola.json",
-          "mode": "all",
-          "sectionName": "airports",
-          "source": "json",
-          "targetRemovedTotal": 0,
-          "totalRemoved": 0
+          "name": "Rescata al técnico herido",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 500000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2007,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2006,
+            "value": 1
+          },
+          "targetName": "US_TROOP_01"
         }
-      }
+      },
+      "secondaryObjectivesState": {
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "armed": true,
+          "cleanupExecuted": false,
+          "completed": false,
+          "debugStatus": "FUERA_DE_ZONA",
+          "definitionSnapshot": {
+            "drawName": "Rescata al técnico herido",
+            "enabled": true,
+            "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+            "monitor": {
+              "items": [],
+              "kind": "unit_alive_in_zone",
+              "op": "==",
+              "unitName": "US_TROOP_01",
+              "value": 1,
+              "zoneName": "ACA"
+            },
+            "name": "Rescata al técnico herido",
+            "requiredForMission": true,
+            "reward": {
+              "amount": 500000,
+              "coalition": 2,
+              "enabled": true
+            },
+            "setFlagOnActive": {
+              "elseValue": 0,
+              "flag": 2007,
+              "value": 1
+            },
+            "setFlagOnPass": {
+              "elseValue": 0,
+              "flag": 2006,
+              "value": 1
+            },
+            "targetName": "US_TROOP_01"
+          },
+          "firstSeenAt": 56.081,
+          "lastEvalAt": 127.081,
+          "lastExists": 1,
+          "lastPass": false,
+          "lastSeenAt": 127.081,
+          "lastSnapshot": {
+            "alive": 1,
+            "distance2D": 406596.37449867,
+            "exists": true,
+            "inZone": false,
+            "life": 1.039999961853,
+            "life0": 1.039999961853,
+            "lifePercent": 100,
+            "point": {
+              "x": -79314.6875,
+              "y": 22.743298126268,
+              "z": -367316.8125
+            },
+            "unitName": "US_TROOP_01",
+            "zoneExists": true,
+            "zoneName": "ACA",
+            "zonePoint": {
+              "x": 2267.8284603993,
+              "y": 291.01312255859,
+              "z": 31010.822550638
+            },
+            "zoneRadius": 500.7864
+          },
+          "lastValue": 0
+        }
+      },
+      "status": 1,
+      "validatorMemory": []
     }
   }
 }
