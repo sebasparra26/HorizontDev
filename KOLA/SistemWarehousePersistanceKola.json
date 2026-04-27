@@ -128,7 +128,7 @@
       {
         "Ka-50_3": 400,
         "Mi-24P": 400,
-        "MiG-29S": 398,
+        "MiG-29S": 400,
         "Su-27": 400,
         "Su-33": 400
       },
@@ -158,7 +158,7 @@
       "missionTime": 213.831,
       "categoryName": "airbase",
       "liquids": {
-        "jet_fuel": 468809.53125,
+        "jet_fuel": 50000,
         "gasoline": 0,
         "methanol_mixture": 0,
         "diesel": 0
@@ -170,13 +170,12 @@
         "AH-64D_BLK_II": 10,
         "AJS37": 2,
         "AV8BNA": 2,
-        "B-1B": 10,
-        "B-52H": 99999996,
+        "B-52H": 10,
         "C-130J-30": 3,
         "CH-47D": 8,
         "CH-47Fbl1": 5,
         "E-2C": 5,
-        "F-117A": 99999996,
+        "F-117A": 10,
         "F-14B": 4,
         "F-15ESE": 2,
         "F-16C_50": 10,
@@ -200,8 +199,8 @@
         "weapons.bombs.MK_82SNAKEYE": 100,
         "weapons.bombs.Mk_82": 100,
         "weapons.bombs.Mk_82Y": 100,
-        "weapons.containers.ah-64d_radar": 2,
-        "weapons.containers.alq-184long": 2,
+        "weapons.containers.ah-64d_radar": 6,
+        "weapons.containers.alq-184long": 10,
         "weapons.containers.{CH47_AFT_M240H}": 20,
         "weapons.containers.{CH47_AFT_M60D}": 20,
         "weapons.containers.{CH47_PORT_M240H}": 20,
@@ -212,7 +211,7 @@
         "weapons.droptanks.AV8BNA_AERO1D": 20,
         "weapons.droptanks.F-15E_Drop_Tank": 20,
         "weapons.droptanks.F15-PTB": 20,
-        "weapons.droptanks.FPU_8A": 14,
+        "weapons.droptanks.FPU_8A": 40,
         "weapons.droptanks.FT600": 20,
         "weapons.droptanks.HB_A6E_AERO1D": 20,
         "weapons.droptanks.HB_F-4E_EXT_Center_Fuel_Tank": 20,
@@ -231,10 +230,10 @@
         "weapons.droptanks.PTB_1500_MIG29A": 20,
         "weapons.droptanks.PTB_580G_F1": 20,
         "weapons.droptanks.fuel_tank_230": 20,
-        "weapons.droptanks.fuel_tank_300gal": 20,
-        "weapons.droptanks.fuel_tank_370gal": 20,
-        "weapons.missiles.ADM_141A": 164,
-        "weapons.missiles.AGM_154A": 40,
+        "weapons.droptanks.fuel_tank_300gal": 40,
+        "weapons.droptanks.fuel_tank_370gal": 40,
+        "weapons.missiles.ADM_141A": 200,
+        "weapons.missiles.AGM_154A": 20,
         "weapons.missiles.AGM_86": 999999975,
         "weapons.missiles.AIM-7P": 30,
         "weapons.missiles.AIM-9L": 30,
@@ -269,16 +268,16 @@
       },
       "weapon":
       {
-        "weapons.bombs.KAB_500": 200,
-        "weapons.bombs.KAB_500S": 200,
-        "weapons.containers.SORBCIJA_L": 190,
-        "weapons.containers.SORBCIJA_R": 190,
-        "weapons.missiles.P_27P": 180,
-        "weapons.missiles.P_73": 180,
-        "weapons.missiles.P_77": 200,
-        "weapons.missiles.X_101": 172,
-        "weapons.missiles.X_31P": 160,
-        "weapons.missiles.X_59M": 200
+        "weapons.bombs.KAB_500": 300,
+        "weapons.bombs.KAB_500S": 300,
+        "weapons.containers.SORBCIJA_L": 300,
+        "weapons.containers.SORBCIJA_R": 300,
+        "weapons.missiles.P_27P": 300,
+        "weapons.missiles.P_73": 300,
+        "weapons.missiles.P_77": 300,
+        "weapons.missiles.X_101": 300,
+        "weapons.missiles.X_31P": 300,
+        "weapons.missiles.X_59M": 300
       }
     },
     "9":
@@ -413,9 +412,9 @@
       {
         "Ka-50_3": 200,
         "Mi-24P": 200,
-        "MiG-29S": 199,
-        "Su-27": 198,
-        "Su-33": 189
+        "MiG-29S": 200,
+        "Su-27": 200,
+        "Su-33": 200
       },
       "weapon":
       {
@@ -539,8 +538,7 @@
       {
         "AH-64D_BLK_II": 2,
         "F-16C bl.50": 2,
-        "FA-18C_hornet": 4,
-        "UH-1H": 1
+        "FA-18C_hornet": 2
       },
       "weapon":
       {
@@ -585,15 +583,15 @@
       },
       "aircraft":
       {
-        "Ka-50_3": 199,
+        "Ka-50_3": 200,
         "Mi-24P": 200,
-        "MiG-21Bis": 198,
+        "MiG-21Bis": 200,
         "MiG-29 Fulcrum": 200
       },
       "weapon":
       {
-        "weapons.containers.ASO-2": 198,
-        "weapons.droptanks.PTB-800-MIG21": 198,
+        "weapons.containers.ASO-2": 200,
+        "weapons.droptanks.PTB-800-MIG21": 200,
         "weapons.droptanks.PTB_1500_MIG29A": 200,
         "weapons.missiles.Ataka_9M220": 200,
         "weapons.missiles.Igla_1E": 200,
@@ -961,7 +959,6 @@
       },
       "aircraft":
       {
-        "E-2C": 5
       },
       "weapon":
       {
@@ -1000,10 +997,14 @@
       },
       "aircraft":
       {
-        "UH-1H": 6
+        "UH-1H": 10
       },
       "weapon":
       {
+        "weapons.containers.M134_L": 10,
+        "weapons.containers.M134_R": 10,
+        "weapons.containers.M134_SIDE_L": 10,
+        "weapons.containers.M134_SIDE_R": 10
       }
     }
   }
