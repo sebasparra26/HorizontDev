@@ -1,0 +1,543 @@
+{
+  "control": {
+    "autosaveInterval": 10,
+    "importWindowSeconds": 30,
+    "mainLoopInterval": 1,
+    "minWriteInterval": 5
+  },
+  "managedFlags": {
+    "2015": 0,
+    "2016": 1,
+    "2017": 0,
+    "2018": 1,
+    "2019": 0,
+    "2020": 1,
+    "2021": 0,
+    "2400": 1
+  },
+  "meta": {
+    "currentMissionId": "M04",
+    "dbVersion": "1.4.13",
+    "engineVersion": "1.4.14",
+    "nextMarkId": 950001,
+    "source": "HDEV_MissionSystem_Core",
+    "updatedAt": 57.091
+  },
+  "missionCatalog": {
+    "M04": {
+      "autoStart": true,
+      "dbVersion": "1.4.13",
+      "enabled": true,
+      "generalObjective": "Destruye el bunker de municiones en el sector\n\nLat Long Decimal Minutes: N 69°00.635'   E 23°03.087'\nMGRS GRID: 34 W EB 81993 56913\nAltitude: 304 m / 996 feet\n\n\n(OPCIONAL) Extrae a los grupo seal del sector (Humo azul) y llevalos a la base (BODO)\n\n",
+      "hasMap": true,
+      "id": "M04",
+      "name": "Operación - Velo Negro",
+      "order": 4,
+      "rewards": {
+        "coalition": 2,
+        "enabled": true,
+        "missionSuccessAmount": 10000000
+      },
+      "secondaryObjectivesCatalog": {
+        "OBJ_DESTRUIR_AMMO_01": {
+          "enabled": true,
+          "id": "OBJ_DESTRUIR_AMMO_01",
+          "monitor": {
+            "items": [],
+            "kind": "unit",
+            "metric": "alive",
+            "op": "==",
+            "unitName": "Command02",
+            "value": 0
+          },
+          "name": "Destruye el Suministro de municiones del enemigo en el sector.",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 500000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": [],
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2021,
+            "value": 1
+          },
+          "targetName": "Command02"
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "drawName": "Extrae al Equipo SEAL",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_02",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Extrae al Equipo SEAL",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2016,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2015,
+            "value": 1
+          },
+          "targetName": "US_TROOP_02"
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA_2": {
+          "drawName": "Extrae al Equipo SEAL",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA_2",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_03",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Extrae al Equipo SEAL",
+          "requiredForMission": false,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2018,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2017,
+            "value": 1
+          },
+          "targetName": "US_TROOP_03"
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA_3": {
+          "drawName": "Extrae al Equipo SEAL",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA_3",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_04",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Extrae al Equipo SEAL",
+          "requiredForMission": false,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2020,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2019,
+            "value": 1
+          },
+          "targetName": "US_TROOP_04"
+        }
+      },
+      "shortName": "M04"
+    }
+  },
+  "missionsState": {
+    "M04": {
+      "activatedAt": 18.091,
+      "id": "M04",
+      "rewardsPaid": {
+        "missionSuccess": false,
+        "secondaryObjectives": []
+      },
+      "secondaryObjectivesCatalog": {
+        "OBJ_DESTRUIR_AMMO_01": {
+          "enabled": true,
+          "id": "OBJ_DESTRUIR_AMMO_01",
+          "monitor": {
+            "items": [],
+            "kind": "unit",
+            "metric": "alive",
+            "op": "==",
+            "unitName": "Command02",
+            "value": 0
+          },
+          "name": "Destruye el Suministro de municiones del enemigo en el sector.",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 500000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": [],
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2021,
+            "value": 1
+          },
+          "targetName": "Command02"
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "drawName": "Extrae al Equipo SEAL",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_02",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Extrae al Equipo SEAL",
+          "requiredForMission": true,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2016,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2015,
+            "value": 1
+          },
+          "targetName": "US_TROOP_02"
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA_2": {
+          "drawName": "Extrae al Equipo SEAL",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA_2",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_03",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Extrae al Equipo SEAL",
+          "requiredForMission": false,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2018,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2017,
+            "value": 1
+          },
+          "targetName": "US_TROOP_03"
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA_3": {
+          "drawName": "Extrae al Equipo SEAL",
+          "enabled": true,
+          "id": "OBJ_RADAR_LLEGA_VIVO_ZONA_3",
+          "monitor": {
+            "items": [],
+            "kind": "unit_alive_in_zone",
+            "op": "==",
+            "unitName": "US_TROOP_04",
+            "value": 1,
+            "zoneName": "ACA"
+          },
+          "name": "Extrae al Equipo SEAL",
+          "requiredForMission": false,
+          "reward": {
+            "amount": 5000000,
+            "coalition": 2,
+            "enabled": true
+          },
+          "setFlagOnActive": {
+            "elseValue": 0,
+            "flag": 2020,
+            "value": 1
+          },
+          "setFlagOnPass": {
+            "elseValue": 0,
+            "flag": 2019,
+            "value": 1
+          },
+          "targetName": "US_TROOP_04"
+        }
+      },
+      "secondaryObjectivesState": {
+        "OBJ_DESTRUIR_AMMO_01": {
+          "armed": true,
+          "cleanupExecuted": false,
+          "completed": false,
+          "debugStatus": "PENDIENTE",
+          "definitionSnapshot": {
+            "enabled": true,
+            "id": "OBJ_DESTRUIR_AMMO_01",
+            "monitor": {
+              "items": [],
+              "kind": "unit",
+              "metric": "alive",
+              "op": "==",
+              "unitName": "Command02",
+              "value": 0
+            },
+            "name": "Destruye el Suministro de municiones del enemigo en el sector.",
+            "requiredForMission": true,
+            "reward": {
+              "amount": 500000000,
+              "coalition": 2,
+              "enabled": true
+            },
+            "setFlagOnActive": [],
+            "setFlagOnPass": {
+              "elseValue": 0,
+              "flag": 2021,
+              "value": 1
+            },
+            "targetName": "Command02"
+          },
+          "firstSeenAt": 19.091,
+          "lastEvalAt": 57.091,
+          "lastExists": 1,
+          "lastPass": false,
+          "lastSeenAt": 57.091,
+          "lastSnapshot": {
+            "alive": 1,
+            "exists": true,
+            "life": 1.039999961853,
+            "life0": 1.039999961853,
+            "lifePercent": 100
+          },
+          "lastValue": 1
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA": {
+          "armed": true,
+          "cleanupExecuted": false,
+          "completed": false,
+          "debugStatus": "FUERA_DE_ZONA",
+          "definitionSnapshot": {
+            "drawName": "Extrae al Equipo SEAL",
+            "enabled": true,
+            "id": "OBJ_RADAR_LLEGA_VIVO_ZONA",
+            "monitor": {
+              "items": [],
+              "kind": "unit_alive_in_zone",
+              "op": "==",
+              "unitName": "US_TROOP_02",
+              "value": 1,
+              "zoneName": "ACA"
+            },
+            "name": "Extrae al Equipo SEAL",
+            "requiredForMission": true,
+            "reward": {
+              "amount": 5000000,
+              "coalition": 2,
+              "enabled": true
+            },
+            "setFlagOnActive": {
+              "elseValue": 0,
+              "flag": 2016,
+              "value": 1
+            },
+            "setFlagOnPass": {
+              "elseValue": 0,
+              "flag": 2015,
+              "value": 1
+            },
+            "targetName": "US_TROOP_02"
+          },
+          "firstSeenAt": 19.091,
+          "lastEvalAt": 57.091,
+          "lastExists": 1,
+          "lastPass": false,
+          "lastSeenAt": 57.091,
+          "lastSnapshot": {
+            "alive": 1,
+            "distance2D": 409067.17568898,
+            "exists": true,
+            "inZone": false,
+            "life": 1.039999961853,
+            "life0": 1.039999961853,
+            "lifePercent": 100,
+            "point": {
+              "x": 113685.7109375,
+              "y": 337.97759301763,
+              "z": 18715.984375
+            },
+            "unitName": "US_TROOP_02",
+            "zoneExists": true,
+            "zoneName": "ACA",
+            "zonePoint": {
+              "x": -66724.041663545,
+              "y": 10.230761528015,
+              "z": -348419.24328994
+            },
+            "zoneRadius": 500.7864
+          },
+          "lastValue": 0
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA_2": {
+          "armed": true,
+          "cleanupExecuted": false,
+          "completed": false,
+          "debugStatus": "FUERA_DE_ZONA",
+          "definitionSnapshot": {
+            "drawName": "Extrae al Equipo SEAL",
+            "enabled": true,
+            "id": "OBJ_RADAR_LLEGA_VIVO_ZONA_2",
+            "monitor": {
+              "items": [],
+              "kind": "unit_alive_in_zone",
+              "op": "==",
+              "unitName": "US_TROOP_03",
+              "value": 1,
+              "zoneName": "ACA"
+            },
+            "name": "Extrae al Equipo SEAL",
+            "requiredForMission": false,
+            "reward": {
+              "amount": 5000000,
+              "coalition": 2,
+              "enabled": true
+            },
+            "setFlagOnActive": {
+              "elseValue": 0,
+              "flag": 2018,
+              "value": 1
+            },
+            "setFlagOnPass": {
+              "elseValue": 0,
+              "flag": 2017,
+              "value": 1
+            },
+            "targetName": "US_TROOP_03"
+          },
+          "firstSeenAt": 19.091,
+          "lastEvalAt": 57.091,
+          "lastExists": 1,
+          "lastPass": false,
+          "lastSeenAt": 57.091,
+          "lastSnapshot": {
+            "alive": 1,
+            "distance2D": 409432.31274064,
+            "exists": true,
+            "inZone": false,
+            "life": 1.039999961853,
+            "life0": 1.039999961853,
+            "lifePercent": 100,
+            "point": {
+              "x": 112425.8046875,
+              "y": 338.72481591802,
+              "z": 19738.537109375
+            },
+            "unitName": "US_TROOP_03",
+            "zoneExists": true,
+            "zoneName": "ACA",
+            "zonePoint": {
+              "x": -66724.041663545,
+              "y": 10.230761528015,
+              "z": -348419.24328994
+            },
+            "zoneRadius": 500.7864
+          },
+          "lastValue": 0
+        },
+        "OBJ_RADAR_LLEGA_VIVO_ZONA_3": {
+          "armed": true,
+          "cleanupExecuted": false,
+          "completed": false,
+          "debugStatus": "FUERA_DE_ZONA",
+          "definitionSnapshot": {
+            "drawName": "Extrae al Equipo SEAL",
+            "enabled": true,
+            "id": "OBJ_RADAR_LLEGA_VIVO_ZONA_3",
+            "monitor": {
+              "items": [],
+              "kind": "unit_alive_in_zone",
+              "op": "==",
+              "unitName": "US_TROOP_04",
+              "value": 1,
+              "zoneName": "ACA"
+            },
+            "name": "Extrae al Equipo SEAL",
+            "requiredForMission": false,
+            "reward": {
+              "amount": 5000000,
+              "coalition": 2,
+              "enabled": true
+            },
+            "setFlagOnActive": {
+              "elseValue": 0,
+              "flag": 2020,
+              "value": 1
+            },
+            "setFlagOnPass": {
+              "elseValue": 0,
+              "flag": 2019,
+              "value": 1
+            },
+            "targetName": "US_TROOP_04"
+          },
+          "firstSeenAt": 19.091,
+          "lastEvalAt": 57.091,
+          "lastExists": 1,
+          "lastPass": false,
+          "lastSeenAt": 57.091,
+          "lastSnapshot": {
+            "alive": 1,
+            "distance2D": 410557.18889309,
+            "exists": true,
+            "inZone": false,
+            "life": 1.039999961853,
+            "life0": 1.039999961853,
+            "lifePercent": 100,
+            "point": {
+              "x": 115235.8359375,
+              "y": 341.6416860352,
+              "z": 19613.103515625
+            },
+            "unitName": "US_TROOP_04",
+            "zoneExists": true,
+            "zoneName": "ACA",
+            "zonePoint": {
+              "x": -66724.041663545,
+              "y": 10.230761528015,
+              "z": -348419.24328994
+            },
+            "zoneRadius": 500.7864
+          },
+          "lastValue": 0
+        }
+      },
+      "status": 1,
+      "validatorMemory": []
+    }
+  }
+}
