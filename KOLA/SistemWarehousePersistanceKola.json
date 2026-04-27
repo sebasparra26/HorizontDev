@@ -246,7 +246,21 @@
         "weapons.missiles.CHAP_AIM92": 30,
         "weapons.missiles.LD-10": 10,
         "weapons.missiles.OH58D_FIM_92": 50,
-        "weapons.missiles.P_60": 30
+        "weapons.missiles.P_60": 30,
+        "weapons.nurs.HYDRA_70_M151": 200,
+        "weapons.nurs.HYDRA_70_M282": 200,
+        "weapons.missiles.AGM_65H": 100,
+        "weapons.containers.OH58D_M3P_L500": 10,
+        "weapons.bombs.OH58D_Blue_Smoke_Grenade": 100,
+        "weapons.bombs.OH58D_Green_Smoke_Grenade": 100,
+        "weapons.bombs.OH58D_Red_Smoke_Grenade": 100,
+        "weapons.bombs.OH58D_Violet_Smoke_Grenade": 100,
+        "weapons.bombs.OH58D_White_Smoke_Grenade": 100,
+        "weapons.bombs.OH58D_Yellow_Smoke_Grenade": 100,
+        "weapons.containers.M134_L": 4,
+        "weapons.containers.M134_R": 4,
+        "weapons.containers.M134_SIDE_L": 4,
+        "weapons.containers.M134_SIDE_R": 4
       }
     },
     "8":
